@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>Pokémon Crisis Pokedex</title>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<link rel="stylesheet" href="dist/css/styles.min.css">
+	</head>
+	<body>
+		<nav class="navbar navbar-expand-sm navbar-light fixed-top" style="background-color: #e3f2fd;">
+			<img src ="crisis.png" height="80px" width="80px">
+			<a class="navbar-brand" href="index.html"><h1>Pokemon Crisis Pokedex</h1></a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<form class="form-inline">
+					<input class="form-control mr-sm-2" id="pokemon-search" type="search" placeholder="Search" aria-label="Search">
+					<button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Search</button>
+				</form>
+			</div><!--navbar-collapse (hamburger menu)-->
+		</nav>
+
+    <div class="pokemon-list">
+			<!-- Pokemon list will be shown here -->
+		</div>
+
+		<!--Bootstrap modal-->
+		<div class="modal fade" id="pokemon-modal" tabindex="-1" role="dialog" aria-labelledby="pokemon-name" aria-hidden="true">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title" id="pokemon-name"></h5>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+							</button>
+						</div> <!--modal-header-->
+						<div class="modal-body" id="pokemon-content"></div>
+						<div class="modal-footer">
+							<button type="button" class="modal-close btn btn-secondary" data-dismiss="modal" name="button">Close</button>
+						</div>
+					</div> <!--modal-content-->
+				</div> <!--modal-dialog-->
+			</div> <!--modal fade-->
+
+		
+
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="dist/js/promise-polyfill.js"></script>
+	<script src="js/scripts.js"></script>
+		
+	</body>
+</html>
