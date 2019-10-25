@@ -1,5 +1,5 @@
 # PokeDex 
-<img src="https://travis-ci.com/PokemonCrisis/PokeDex.svg?branch=master" /> [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
+<img src="https://travis-ci.com/PokemonCrisis/PokeDex.svg?branch=master" /> [![License: MIT](https://img.shields.io/badge/License-MIT.svg)](https://opensource.org/licenses/MIT) 
 
 PokeDex  contains the information about all the pokemons.
 
