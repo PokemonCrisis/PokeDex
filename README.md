@@ -6,7 +6,7 @@ Navigation: [Website][1] | **Dex repository** | [Client repository][2] | [Server
   [2]: https://github.com/PokemonCrisis/
   [3]: https://github.com/PokemonCrisis
   
-[![Build Status] <img src="https://travis-ci.com/PokemonCrisis/PokeDex.svg?branch=master" /> 
+ <img src="https://travis-ci.com/PokemonCrisis/PokeDex.svg?branch=master" /> 
 [![License: MIT](https://img.shields.io/badge/License-MIT-Green.svg)](https://opensource.org/licenses/MIT) 
 
 PokeDex  contains the information about all the pokemons.
