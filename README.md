@@ -4,8 +4,8 @@
 Navigation: [Website][1] | **Dex repository** | [Client repository][2] | [Server repository][3]
 
   [1]: http://pokemoncrisis.com/
-  [2]: https://github.com/PokemonCrisis/
-  [3]: https://github.com/PokemonCrisis
+  [2]: https://github.com/PokemonCrisis/PokemonCrisis-Client
+  [3]: https://github.com/PokemonCrisis/PokemonCrisis-Server
   
 [![Build Status](https://api.travis-ci.com/PokemonCrisis/PokeDex.svg)](https://travis-ci.com/PokemonCrisis/PokeDex)
 [![License: MIT](https://img.shields.io/badge/License-MIT-Green.svg)](https://opensource.org/licenses/MIT) 
